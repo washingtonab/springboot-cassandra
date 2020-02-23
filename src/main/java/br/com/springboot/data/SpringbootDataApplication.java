@@ -16,10 +16,10 @@ import com.datastax.driver.core.querybuilder.QueryBuilder;
 
 @SpringBootApplication
 @EnableAutoConfiguration(exclude = { CassandraDataAutoConfiguration.class })
-public class SpringbootCassandraApplication implements CommandLineRunner {
+public class SpringbootDataApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootCassandraApplication.class, args);
+		SpringApplication.run(SpringbootDataApplication.class, args);
 	}
 
 	@Override
